@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/picture/css/styles.css" />
+    <title>CSS Grid Responsive Site</title>
   </head>
 
   <body>
@@ -38,7 +39,6 @@
 
       <section id="section-b" class="grid">
         <div class="card">
-          <div class="shadowbox">
             <img src="./assets/picture/pexels-photo-574077.jpeg" alt="Laptop" />
             <div class="card-content">
               <h3>Web Development</h3>
@@ -51,7 +51,7 @@
           </div>
         </div>
 
-        <div class="shadowbox">
+        <div class="card">
           <img src="./assets/picture/pexels-photo-261628.jpeg" alt="Phone" />
           <div class="card-content">
             <h3>Mobile Applications</h3>
@@ -63,7 +63,7 @@
           </div>
         </div>
 
-        <div class="shadowbox">
+        <div class="card">
           <img
             src="./assets/picture/pexels-photo-265087.jpeg"
             alt="Marketing"
@@ -80,7 +80,7 @@
       </section>
 
       <section id="section-c" class="grid">
-        <div class="box">
+        <div class="content-wrap">
           <h2 class="content-title">We handle all of your digital needs</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
@@ -90,7 +90,7 @@
         </div>
       </section>
 
-      <section class="grid">
+      <section id="section-d" class="grid">
         <div class="box">
           <h2 class="content-title">Contact Us</h2>
           <p>
@@ -98,6 +98,8 @@
             suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
           </p>
           <p>contact@acmewebsolutions.test</p>
+        </div>
+        <div class="box">
           <h2 class="content-title">About Our Company</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -108,12 +110,13 @@
         </div>
       </section>
 
-      <footer>
+      <footer id="main-footer" class="grid">
         <div>Acme Web Solutions</div>
         <div>
           Project By <a href="http://traversymedia.com/">Traversy Media</a>
         </div>
       </footer>
+
     </main>
   </body>
 </html>
